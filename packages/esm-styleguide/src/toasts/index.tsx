@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
 import { Subject } from "rxjs";
-import ActiveToasts from "./active-toasts.component";
 import { ToastDescriptor } from "./toast.component";
+import ActiveToasts from "./active-toasts.component";
 import isEmpty from "lodash-es/isEmpty";
 
 export const toastsSubject = new Subject();

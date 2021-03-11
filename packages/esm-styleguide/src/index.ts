@@ -1,4 +1,7 @@
-import "./logo/logo";
-import "./icons/icons";
+import { setupLogo } from "./logo";
+import { setupIcons } from "./icons";
 
-export * from "./toasts/toasts";
+export * from "./toasts";
+
+setupLogo();
+setupIcons();

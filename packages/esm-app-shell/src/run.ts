@@ -4,6 +4,7 @@ import {
   createAppState,
   Config,
   provide,
+  showToast,
 } from "@openmrs/esm-framework";
 import { setupI18n } from "./locale";
 import { registerApp, tryRegisterExtension } from "./apps";
@@ -141,10 +142,17 @@ function createConfigLoader(configUrls: Array<string>) {
   return () => loadingConfigs.then(loadConfigs);
 }
 
+function registerShowToast() {
+  window.addEventListener("openmrs:show-toast", (ev: CustomEvent) => {
+    showToast(ev.detail);
+  });
+}
+
 export function run(configUrls: Array<string>) {
   const provideConfigs = createConfigLoader(configUrls);
 
   createAppState({});
+  registerShowToast();
   registerModules(sharedDependencies);
   setupApiModule();
   registerCoreExtensions();
