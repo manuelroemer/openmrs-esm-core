@@ -221,7 +221,7 @@ ___
 
 Ƭ **CurrentPatient**: fhir.Patient \| [*FetchResponse*](interfaces/fetchresponse.md)<fhir.Patient\>
 
-Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:74](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L74)
+Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:72](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L72)
 
 ___
 
@@ -273,7 +273,7 @@ ___
 
 Ƭ **PatientUuid**: *string* \| *null*
 
-Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:86](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L86)
+Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:84](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L84)
 
 ___
 
@@ -473,7 +473,7 @@ ___
 
 • `Const` **toastsSubject**: *Subject*<unknown\>
 
-Defined in: [packages/esm-styleguide/src/toasts/toasts.tsx:8](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-styleguide/src/toasts/toasts.tsx#L8)
+Defined in: [packages/esm-styleguide/src/toasts/index.tsx:8](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-styleguide/src/toasts/index.tsx#L8)
 
 ___
 
@@ -611,7 +611,7 @@ ___
 
 **Returns:** *Observable*<fhir.Patient\>
 
-Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:40](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L40)
+Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:38](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L38)
 
 ▸ **getCurrentPatient**(`opts`: PatientWithFullResponse): *Observable*<[*FetchResponse*](interfaces/fetchresponse.md)<fhir.Patient\>\>
 
@@ -623,7 +623,7 @@ Name | Type |
 
 **Returns:** *Observable*<[*FetchResponse*](interfaces/fetchresponse.md)<fhir.Patient\>\>
 
-Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:41](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L41)
+Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:39](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L39)
 
 ▸ **getCurrentPatient**(`opts`: OnlyThePatient): *Observable*<fhir.Patient\>
 
@@ -635,7 +635,7 @@ Name | Type |
 
 **Returns:** *Observable*<fhir.Patient\>
 
-Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:44](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L44)
+Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:42](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L42)
 
 ___
 
@@ -645,7 +645,7 @@ ___
 
 **Returns:** *Observable*<[*PatientUuid*](API.md#patientuuid)\>
 
-Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:70](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L70)
+Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:68](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L68)
 
 ___
 
@@ -720,7 +720,7 @@ ___
 
 **Returns:** *void*
 
-Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:61](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L61)
+Defined in: [packages/esm-api/src/shared-api-objects/current-patient.ts:59](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-api/src/shared-api-objects/current-patient.ts#L59)
 
 ___
 
@@ -960,7 +960,7 @@ ___
 
 **Returns:** (`incomingErr`: *any*) => *void*
 
-Defined in: [packages/esm-error-handling/src/index.ts:28](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-error-handling/src/index.ts#L28)
+Defined in: [packages/esm-error-handling/src/index.ts:30](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-error-handling/src/index.ts#L30)
 
 ___
 
@@ -1302,7 +1302,7 @@ ___
 
 **Returns:** (`incomingResponseErr`: *any*) => *void*
 
-Defined in: [packages/esm-error-handling/src/index.ts:3](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-error-handling/src/index.ts#L3)
+Defined in: [packages/esm-error-handling/src/index.ts:1](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-error-handling/src/index.ts#L1)
 
 ___
 
@@ -1503,7 +1503,7 @@ Name | Type |
 
 **Returns:** [*CancelLoading*](interfaces/cancelloading.md)
 
-Defined in: [packages/esm-extensions/src/render.ts:23](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-extensions/src/render.ts#L23)
+Defined in: [packages/esm-extensions/src/render.ts:24](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-extensions/src/render.ts#L24)
 
 ___
 
@@ -1519,7 +1519,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [packages/esm-error-handling/src/index.ts:21](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-error-handling/src/index.ts#L21)
+Defined in: [packages/esm-error-handling/src/index.ts:23](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-error-handling/src/index.ts#L23)
 
 ___
 
@@ -1535,7 +1535,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [packages/esm-styleguide/src/toasts/toasts.tsx:27](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-styleguide/src/toasts/toasts.tsx#L27)
+Defined in: [packages/esm-styleguide/src/toasts/index.tsx:27](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-styleguide/src/toasts/index.tsx#L27)
 
 ___
 

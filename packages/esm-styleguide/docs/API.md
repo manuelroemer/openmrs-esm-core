@@ -18,7 +18,7 @@
 
 • `Const` **toastsSubject**: *Subject*<unknown\>
 
-Defined in: [toasts/toasts.tsx:8](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-styleguide/src/toasts/toasts.tsx#L8)
+Defined in: [toasts/index.tsx:8](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-styleguide/src/toasts/index.tsx#L8)
 
 ## Functions
 
@@ -34,4 +34,4 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [toasts/toasts.tsx:27](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-styleguide/src/toasts/toasts.tsx#L27)
+Defined in: [toasts/index.tsx:27](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-styleguide/src/toasts/index.tsx#L27)
