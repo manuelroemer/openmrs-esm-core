@@ -1,3 +1,6 @@
+@import "./variables";
+@import "~carbon-components/scss/globals/scss/styles";
+
 @import "./canvas/canvas.css";
 @import "./colors/colors.css";
 @import "./typography/typography.css";
@@ -11,4 +14,5 @@
 @import "./logo/logo.css";
 @import "./toasts/toasts.css";
 @import "./forms/forms.css";
-@import "./carbon-overrides.css";
+
+@import "./overrides";
