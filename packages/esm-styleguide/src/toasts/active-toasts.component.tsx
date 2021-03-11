@@ -3,7 +3,9 @@ import { Toast, ToastDescriptor } from "./toast.component";
 
 export default function ActiveToasts({ subject }) {
   const [toasts, setToasts] = React.useState<Array<ToastDescriptor>>([]);
-  const [toastsClosing, setToastsClosing] = React.useState([]);
+  const [toastsClosing, setToastsClosing] = React.useState<
+    Array<ToastDescriptor>
+  >([]);
 
   const closeToast = React.useCallback(
     (toast) => {
@@ -46,7 +48,7 @@ export default function ActiveToasts({ subject }) {
         <Toast
           key={toast.id}
           toast={toast}
-          isClosing={toastsClosing.some((t) => t === toast)}
+          isClosing={toastsClosing.includes(toast)}
           closeToast={closeToast}
         />
       ))}
