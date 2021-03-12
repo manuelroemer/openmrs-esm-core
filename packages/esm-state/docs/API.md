@@ -7,6 +7,11 @@
 ### Interfaces
 
 - [AppState](interfaces/appstate.md)
+- [ImportMap](interfaces/importmap.md)
+
+### Type aliases
+
+- [SpaEnvironment](API.md#spaenvironment)
 
 ### Functions
 
@@ -14,6 +19,14 @@
 - [createGlobalStore](API.md#createglobalstore)
 - [getAppState](API.md#getappstate)
 - [getGlobalStore](API.md#getglobalstore)
+
+## Type aliases
+
+### SpaEnvironment
+
+Ƭ **SpaEnvironment**: *production* \| *development* \| *test*
+
+Defined in: [types.ts:15](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-state/src/types.ts#L15)
 
 ## Functions
 

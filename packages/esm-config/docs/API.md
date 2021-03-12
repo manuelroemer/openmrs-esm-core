@@ -240,7 +240,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [packages/esm-config/src/navigation/navigate.ts:29](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-config/src/navigation/navigate.ts#L29)
+Defined in: [packages/esm-config/src/navigation/navigate.ts:28](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-config/src/navigation/navigate.ts#L28)
 
 ___
 

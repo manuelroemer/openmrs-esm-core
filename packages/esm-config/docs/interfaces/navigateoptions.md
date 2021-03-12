@@ -14,4 +14,4 @@
 
 • **to**: *string*
 
-Defined in: [packages/esm-config/src/navigation/navigate.ts:10](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-config/src/navigation/navigate.ts#L10)
+Defined in: [packages/esm-config/src/navigation/navigate.ts:9](https://github.com/openmrs/openmrs-esm-core/blob/master/packages/esm-config/src/navigation/navigate.ts#L9)
