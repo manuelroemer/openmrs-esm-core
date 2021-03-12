@@ -1,6 +1,5 @@
 import { navigateToUrl } from "single-spa";
 import { interpolateUrl } from "./interpolate-string";
-import type {} from "@openmrs/esm-app-shell/src/types";
 
 function trimTrailingSlash(str: string) {
   return str.replace(/\/$/, "");

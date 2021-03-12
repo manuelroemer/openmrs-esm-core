@@ -3,10 +3,10 @@ function trimTrailingSlash(str: string) {
 }
 
 /**
- * @internal
  * Interpolates a string with openmrsBase and openmrsSpaBase
  *
  * @param template A string to interpolate
+ * @internal
  */
 export function interpolateUrl(template: string): string {
   const openmrsSpaBase = trimTrailingSlash(window.getOpenmrsSpaBase());
